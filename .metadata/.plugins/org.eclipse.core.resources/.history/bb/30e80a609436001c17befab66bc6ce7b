@@ -1,0 +1,7 @@
+package rmiauthentication;
+
+import java.rmi.Remote;
+
+public interface PrintService extends Remote {
+	public String echo(String input) throws RemoteException:
+}
